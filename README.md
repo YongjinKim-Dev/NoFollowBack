@@ -1,13 +1,6 @@
 # NoFollowBack 🕵️‍♀️
 
-A tiny CLI that shows which GitHub accounts **you follow but don't follow you back**.
-
-```bash
-$ nofollowback <github_username>
-🚫 Accounts Not Following You Back (2):
- • torvalds
- • rust-lang
-```
+A tiny CLI tool to check which GitHub accounts you follow **aren't following you back**.
 
 ## Installation
 
@@ -17,8 +10,23 @@ pip install nofollowback
 
 ## Usage
 
+Check accounts that don't follow you back:
+
 ```bash
-nofollowback <github_username> [--token YOUR_GH_TOKEN]
+nofollowback <github_username>
 ```
 
-Token is optional but recommended to avoid GitHub’s low unauthenticated rate‑limit.
+Example:
+
+```bash
+$ nofollowback YongjinKim-Dev
+🚫 Accounts Not Following You Back (2):
+ • alice
+ • bob
+```
+
+If you encounter GitHub's rate limits or prefer authenticated requests, you can use your GitHub Personal Access Token:
+
+```bash
+nofollowback <github_username> --token <your_github_token>
+```
