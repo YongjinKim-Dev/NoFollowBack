@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+nofollowback/__init__.py
+nofollowback/cli.py
+nofollowback/github.py
+nofollowback.egg-info/PKG-INFO
+nofollowback.egg-info/SOURCES.txt
+nofollowback.egg-info/dependency_links.txt
+nofollowback.egg-info/entry_points.txt
+nofollowback.egg-info/requires.txt
+nofollowback.egg-info/top_level.txt

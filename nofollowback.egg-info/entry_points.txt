@@ -1,0 +1,2 @@
+[console_scripts]
+nofollowback = nofollowback.cli:cli
